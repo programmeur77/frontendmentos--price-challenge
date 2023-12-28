@@ -28,6 +28,7 @@ body {
   grid-column: span 2;
   background-color: #fff;
   padding: 30px;
+  border-radius: 10px 10px 0 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -48,6 +49,7 @@ body {
 }
 .price-component-grid .price-component__price-section {
   background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -69,7 +71,7 @@ body {
   color: hsla(0, 0%, 100%, 0.5);
 }
 .price-component-grid .price-component__price-section .price-section__explanation {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: hsl(0, 0%, 100%);
   margin: 0 30px;
 }
 .price-component-grid .price-component__price-section .price-section__signup-btn {
@@ -80,9 +82,11 @@ body {
   border: none;
   border-radius: 5px;
   color: #fff;
+  font-weight: 700;
 }
 .price-component-grid .price-component__why-us {
   background-color: #2fc6c4;
+  border-radius: 0 0 10px 0;
   padding: 30px;
   display: flex;
   flex-direction: column;
