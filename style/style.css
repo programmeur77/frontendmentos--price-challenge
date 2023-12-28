@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   display: grid;
   justify-items: center;
   background-color: hsl(204, 43%, 93%);
-  font-family: "karla", sans-serif;
+  font-family: 'karla', sans-serif;
   font-size: 16px;
 }
 
@@ -56,18 +56,28 @@ body {
   color: #fff;
   margin: 0 30px;
 }
-.price-component-grid .price-component__price-section .price-section__info .price {
+.price-component-grid
+  .price-component__price-section
+  .price-section__info
+  .price {
   font-size: 2rem;
 }
-.price-component-grid .price-component__price-section .price-section__info .precision {
+.price-component-grid
+  .price-component__price-section
+  .price-section__info
+  .precision {
   margin-left: 10px;
   color: hsla(0, 0%, 100%, 0.5);
 }
-.price-component-grid .price-component__price-section .price-section__explanation {
+.price-component-grid
+  .price-component__price-section
+  .price-section__explanation {
   color: hsla(0, 0%, 100%, 0.7);
   margin: 0 30px;
 }
-.price-component-grid .price-component__price-section .price-section__signup-btn {
+.price-component-grid
+  .price-component__price-section
+  .price-section__signup-btn {
   width: 70%;
   margin: auto;
   padding: 10px;
