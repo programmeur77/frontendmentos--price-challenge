@@ -2,9 +2,7 @@
   background-color: $cyan;
   border-radius: 0 0 0 10px;
   padding: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+  @include flex-column-gap(1.2rem);
 
   & .price-section {
     &__title {
