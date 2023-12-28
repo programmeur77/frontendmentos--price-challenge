@@ -1,0 +1,20 @@
+{
+  "name": "single-price-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmeur77/frontendmentos--price-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmeur77/frontendmentos--price-challenge/issues"
+  },
+  "homepage": "https://github.com/programmeur77/frontendmentos--price-challenge#readme"
+}
