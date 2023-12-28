@@ -1,0 +1,4 @@
+@mixin card-color-margin($color: $color) {
+  color: $color;
+  margin: 0 30px;
+}
