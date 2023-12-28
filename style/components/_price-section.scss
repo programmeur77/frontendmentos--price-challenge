@@ -1,5 +1,6 @@
 &__price-section {
   background-color: $cyan;
+  border-radius: 0 0 0 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -22,7 +23,7 @@
     }
 
     &__explanation {
-      @include card-color-margin(hsla(0, 0%, 100%, 0.7));
+      @include card-color-margin(hsl(0, 0%, 100%));
     }
 
     @import './signup-btn';
