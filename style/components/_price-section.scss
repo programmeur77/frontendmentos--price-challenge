@@ -1,0 +1,30 @@
+&__price-section {
+  background-color: $cyan;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  & .price-section {
+    &__title {
+      @include card-color-margin(#fff);
+    }
+
+    &__info {
+      @include card-color-margin(#fff);
+      & .price {
+        font-size: 2rem;
+      }
+      & .precision {
+        margin-left: 10px;
+        color: hsla(0, 0%, 100%, 0.5);
+      }
+    }
+
+    &__explanation {
+      @include card-color-margin(hsla(0, 0%, 100%, 0.7));
+    }
+
+    @import './signup-btn';
+  }
+}
