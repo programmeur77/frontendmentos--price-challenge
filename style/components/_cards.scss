@@ -4,5 +4,9 @@
 .price-component-grid {
   width: 100dvh;
   height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  align-self: center;
   @import './price-component';
 }
