@@ -1,0 +1,8 @@
+@import './utils/variables';
+@import './utils/mixins';
+
+.price-component-grid {
+  width: 100dvh;
+  height: fit-content;
+  @import './price-component';
+}
