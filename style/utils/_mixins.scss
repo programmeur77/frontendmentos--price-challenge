@@ -2,3 +2,11 @@
   color: $color;
   margin: 0 30px;
 }
+
+@mixin flex-column-gap($gap: 1.5rem, $display: flex, $direction: column) {
+  display: $display;
+  @if $display == 'flex' {
+    flex-direction: $direction;
+  }
+  gap: $gap;
+}
