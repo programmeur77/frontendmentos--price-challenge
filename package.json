@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/programmeur77/frontendmentos--price-challenge/issues"
   },
-  "homepage": "https://github.com/programmeur77/frontendmentos--price-challenge#readme"
+  "homepage": "https://github.com/programmeur77/frontendmentos--price-challenge#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
 }
